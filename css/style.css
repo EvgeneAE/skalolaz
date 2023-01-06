@@ -1,0 +1,82 @@
+body {
+}
+.mountains {
+  display: grid;
+  align-items: baseline;
+  position: absolute;
+  top: 320px;
+}
+.pauk {
+  width: 55px;
+  right: 50px;
+  bottom: 30px;
+  position: absolute;
+}
+.cli {
+  left: 150px;
+  bottom: 100px;
+}
+.flag {
+  position: absolute;
+  left: -24px;
+  top: -53px;
+}
+#step {
+  width: 15px;
+  height: 1px;
+  border: 1px solid rgb(76, 150, 72);
+}
+.play {
+  display: grid;
+  position: relative;
+  width: 1350px;
+  height: 700px;
+}
+.grid_1 {
+  position: absolute;
+  left: 147px;
+  top: 644px;
+}
+.grid_2 {
+  position: absolute;
+  left: 235px;
+  top: 543px;
+}
+.grid_3 {
+  position: absolute;
+  left: 286px;
+  top: 489px;
+}
+.grid_4 {
+  position: absolute;
+  left: 384px;
+  top: 462px;
+}
+.grid_5 {
+  position: absolute;
+  left: 491px;
+  top: 421px;
+}
+.grid_6 {
+  position: absolute;
+  left: 574px;
+  top: 350px;
+}
+
+.grid_7 {
+  border: 1px solid transparent;
+  position: absolute;
+  left: 575px;
+  top: 289px;
+}
+
+.grid_8 {
+  position: absolute;
+  left: 799px;
+  top: 451px;
+}
+.grid_9 {
+  position: absolute;
+  left: 994px;
+  top: 313px;
+}
