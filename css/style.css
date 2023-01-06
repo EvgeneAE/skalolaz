@@ -1,10 +1,13 @@
 body {
+  background: linear-gradient(blue, 10%, pink);
+
+  background: linear-gradient(blue, pink);
 }
 .mountains {
   display: grid;
   align-items: baseline;
   position: absolute;
-  top: 320px;
+  top: 329px;
 }
 .pauk {
   width: 55px;
@@ -24,7 +27,7 @@ body {
 #step {
   width: 15px;
   height: 1px;
-  border: 1px solid rgb(76, 150, 72);
+  border: 1px solid transparent;
 }
 .play {
   display: grid;
@@ -79,4 +82,15 @@ body {
   position: absolute;
   left: 994px;
   top: 313px;
+}
+
+.grid_10 {
+  position: absolute;
+  right: 104px;
+  bottom: 411px;
+}
+.grid_10 .cli {
+  position: relative;
+  left: 38px;
+  bottom: 144px;
 }

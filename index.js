@@ -3,6 +3,7 @@ const climber = document.querySelector(".cli");
 const all = document.querySelector("html");
 const flag = document.querySelector(".flag");
 const pauk = document.querySelector(".pauk");
+const boat = document.querySelector(".boat");
 
 let rew = 0;
 function uper() {
@@ -11,13 +12,12 @@ function uper() {
       rew--;
       event.preventDefault();
       rop[rew].appendChild(climber);
-      rop[rew - 1].appendChild(pauk);
+      rop[rew + 1].appendChild(pauk);
     }
 
     if (event.key === "x") {
       rew++;
       if (event.key === "x" && rew === 5) {
-        // rop[rew].appendChild(climber);
         rop[rew].appendChild(flag);
       } else event.preventDefault();
       rop[rew].appendChild(climber);
