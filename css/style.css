@@ -1,13 +1,13 @@
 body {
-  background: linear-gradient(blue, 10%, pink);
+  background: linear-gradient(rgb(0, 115, 255), 10%, rgb(206, 92, 111));
 
-  background: linear-gradient(blue, pink);
+  background: linear-gradient(rgb(0, 106, 255), rgb(225, 110, 129));
 }
-.mountains {
+.gori {
   display: grid;
   align-items: baseline;
   position: absolute;
-  top: 329px;
+  top: 79px;
 }
 .pauk {
   width: 55px;
@@ -62,26 +62,26 @@ body {
 }
 .grid_6 {
   position: absolute;
-  left: 574px;
-  top: 350px;
+  left: 580px;
+  top: 277px;
 }
 
 .grid_7 {
   border: 1px solid transparent;
   position: absolute;
   left: 575px;
-  top: 289px;
+  top: 232px;
 }
 
 .grid_8 {
   position: absolute;
   left: 799px;
-  top: 451px;
+  top: 331px;
 }
 .grid_9 {
   position: absolute;
-  left: 994px;
-  top: 313px;
+  left: 902px;
+  top: 129px;
 }
 
 .grid_10 {
